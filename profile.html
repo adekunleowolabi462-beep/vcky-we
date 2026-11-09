@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - VICKY WEB</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="social-body">
+
+<header class="social-header">
+    <h1>VICKY WEB</h1>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="messages.html">Messages</a>
+        <button id="logoutBtn">Logout</button>
+    </nav>
+</header>
+
+<main class="profile-container">
+
+    <div class="profile-cover">
+        <h1>My Profile</h1>
+        <p>Welcome to your VICKY WEB profile</p>
+    </div>
+
+    <section class="profile-information">
+
+        <div class="profile-picture">
+    <img id="profileImage" src="" alt="Profile Picture">
+</div>
+
+<input type="file" id="photoInput" accept="image/png,image/jpeg,image/webp">
+
+<button id="uploadPhotoBtn">Upload Profile Picture</button>
+
+<p id="uploadStatus"></p>
+
+        <h2 id="profileName">Loading name...</h2>
+        <p id="profileUsername">@username</p>
+        <p id="profileEmail">Loading email...</p>
+
+        <hr>
+
+        <h3>About Me</h3>
+        <p id="profileBio">Welcome to my VICKY WEB profile!</p>
+
+        <button id="editProfileBtn">Edit Profile</button>
+
+    </section>
+
+</main>
+
+<script type="module" src="js/profile.js"></script>
+
+</body>
+</html>

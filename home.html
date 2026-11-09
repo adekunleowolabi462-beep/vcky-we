@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VICKY WEB - Meet Friends</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="social-body">
+
+<header class="social-header">
+    <h1>VICKY WEB</h1>
+
+    <input type="search" placeholder="Search friends, people and posts...">
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="messages.html">Messages</a>
+        <button id="logoutBtn">Logout</button>
+    </nav>
+</header>
+
+<main class="social-layout">
+
+    <aside class="social-sidebar">
+        <h2>Welcome!</h2>
+        <p id="welcomeName">Your profile</p>
+
+        <a href="profile.html">👤 My Profile</a>
+        <a href="messages.html">💬 Messages</a>
+        <a href="#">👥 Find Friends</a>
+        <a href="#">📸 Photos</a>
+        <a href="#">⚙️ Settings</a>
+    </aside>
+
+    <section class="social-feed">
+
+        <div class="welcome-card">
+            <h2>Welcome to VICKY WEB! ❤️</h2>
+            <p>Meet new people, make friends and share your world.</p>
+        </div>
+
+        <div class="create-post">
+    <h3>What's on your mind?</h3>
+
+    <textarea id="postText"
+        placeholder="Share something with your friends..."></textarea>
+
+    <input type="file" id="postImage" accept="image/png,image/jpeg,image/webp">
+
+    <button type="button" id="publishPost">Publish Post</button>
+
+    <p id="postStatus"></p>
+</div>
+
+<div id="postsContainer"></div>
+        <div class="post-card">
+            <h3>Welcome to VICKY WEB 🌍</h3>
+            <p>Connect with people, discover new friendships and share beautiful moments.</p>
+            <p>❤️ Like &nbsp;&nbsp; 💬 Comment &nbsp;&nbsp; ↗ Share</p>
+        </div>
+
+        <div class="post-card">
+            <h3>Make new friends!</h3>
+            <p>Your next friendship could start right here. Welcome to our community!</p>
+            <p>❤️ Like &nbsp;&nbsp; 💬 Comment &nbsp;&nbsp; ↗ Share</p>
+        </div>
+
+    </section>
+
+    <aside class="social-right">
+        <h3>People you may know</h3>
+        <p>New friends will appear here.</p>
+
+        <h3>Online Friends</h3>
+        <p>Your online friends will appear here.</p>
+    </aside>
+
+</main>
+
+<script type="module" src="js/main.js"></script>
+
+</body>
+</html>
